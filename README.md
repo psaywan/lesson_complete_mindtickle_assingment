@@ -49,3 +49,7 @@ And below screenshot shows the csv file is been sent as an attachment on the ema
 We can see below table in the csv sent to email.
 
 ![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%209.00.47%20PM.png)
+
+
+
+# For the Airflod dag we need to ensure to set up the environment varialbes properly. Please refer the lessons_completion_dag.py
