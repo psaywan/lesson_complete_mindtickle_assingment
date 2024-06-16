@@ -32,6 +32,31 @@ SES_SMTP_PASSWORD="SMTP password"
 Note : While I have written python as I didn't had any access to airflow I tried reflecting the same steps in dummpy airflow dag script as well which can be fount in setup/ folder
 
 
+
+Addition information for running the job;
+
+command required to setup python env for running the python script
+
+
+# ensure to setup python env 
+python -m venv venv
+
+source venv/bin/activate
+
+
+# Install all the dependencies present in python-job-files/requirements.txt
+
+cd python-job-files/requirements.txt
+
+pip install -r requirements.txt
+
+
+# Run the job
+
+python job.py
+
+
+
 While running the python script named job.py we get above result on the terminal.
 
 ![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.53.32%20PM.png)
