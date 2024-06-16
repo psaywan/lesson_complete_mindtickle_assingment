@@ -30,3 +30,43 @@ SES_SMTP_PASSWORD="SMTP password"
 
 
 Note : While I have written python as I didn't had any access to airflow I tried reflecting the same steps in dummpy airflow dag script as well which can be fount in setup/ folder
+
+
+While running the python script named job.py we get above result on the terminal.
+
+![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.53.32%20PM.png)
+
+
+
+Below we can see the file is succesfully uploaded to s3 bucket.
+
+![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.55.56%20PM.png)
+
+And below screenshot shows the csv file is been sent as an attachment on the email via using the AWS SES.
+
+![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.58.14%20PM.png)
+
+We can see below table in the csv sent to email.
+
+user_id	Number of lessons completed	Date	Name
+1	1	2023-09-13	User1
+3	1	2023-09-15	User3
+4	1	2023-09-15	User4
+1	1	2023-09-16	User1
+3	1	2023-09-16	User3
+4	1	2023-09-16	User4
+1	1	2023-09-18	User1
+3	1	2023-09-18	User3
+4	1	2023-09-18	User4
+1	1	2023-09-19	User1
+3	1	2023-09-19	User3
+4	1	2023-09-19	User4
+1	1	2023-09-20	User1
+3	1	2023-09-20	User3
+4	1	2023-09-20	User4
+1	1	2023-09-21	User1
+3	1	2022-09-21	User3
+4	1	2023-09-21	User4
+1	1	2023-09-22	User1
+3	1	2023-09-22	User3
+4	1	2023-09-22	User4
