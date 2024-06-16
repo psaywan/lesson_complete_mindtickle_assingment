@@ -52,7 +52,7 @@ We can see below table in the csv sent to email.
 
 
 
-# For the Airflod dag we need to ensure to set up below:
+# For the Airflow dag we need to ensure to set up below:
 
 Configuration Management:
 
