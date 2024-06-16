@@ -48,25 +48,4 @@ And below screenshot shows the csv file is been sent as an attachment on the ema
 
 We can see below table in the csv sent to email.
 
-user_id	Number of lessons completed	Date	Name
-1	1	2023-09-13	User1
-3	1	2023-09-15	User3
-4	1	2023-09-15	User4
-1	1	2023-09-16	User1
-3	1	2023-09-16	User3
-4	1	2023-09-16	User4
-1	1	2023-09-18	User1
-3	1	2023-09-18	User3
-4	1	2023-09-18	User4
-1	1	2023-09-19	User1
-3	1	2023-09-19	User3
-4	1	2023-09-19	User4
-1	1	2023-09-20	User1
-3	1	2023-09-20	User3
-4	1	2023-09-20	User4
-1	1	2023-09-21	User1
-3	1	2022-09-21	User3
-4	1	2023-09-21	User4
-1	1	2023-09-22	User1
-3	1	2023-09-22	User3
-4	1	2023-09-22	User4
+![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%209.00.47%20PM.png)
