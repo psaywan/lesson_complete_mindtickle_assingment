@@ -1,5 +1,11 @@
 # lesson_complete_mindtickle_assingment
 
+# At very start setup the docker desktop or docker engine
+
+I have followed below instructions to achive the goal.
+
+
+
 ## Here I have made few required changes to the Docker compose as belows
 
 ![Screenshot](https://raw.githubusercontent.com/psaywan/lesson_complete_mindtickle_assingment/master/ss/Screenshot%202024-06-16%20at%208.39.30%20PM.png)
@@ -31,9 +37,18 @@ SES_SMTP_PASSWORD="SMTP password"
 
 Note : While I have written python as I didn't had any access to airflow I tried reflecting the same steps in dummpy airflow dag script as well which can be fount in setup/ folder
 
+#Running docker Compose
+
+cd setup/
+
+docker-compose up --build
+
+after running the docker compose we can see the running container in below screenshot
+
+![Screenshit](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%209.57.50%20PM.png)
 
 
-Addition information for running the job;
+# Addition information for running the job;
 
 command required to setup python env for running the python script
 
