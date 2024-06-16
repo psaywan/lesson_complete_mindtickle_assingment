@@ -3,3 +3,5 @@
 Here I have made few required changes to the Docker compose as belows
 
 [![Uploading image.png…]()](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.39.30%20PM.png)
+
+![Screenshot](https://raw.githubusercontent.com/psaywan/lesson_complete_mindtickle_assingment/master/ss/Screenshot%202024-06-16%20at%208.39.30%20PM.png)
