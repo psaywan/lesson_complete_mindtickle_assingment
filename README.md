@@ -11,15 +11,22 @@
 
 
 
-In .env we have add information as belows:(Please refer to the .env in /setup/)
+## In .env we have add information as belows:(Please refer to the .env in /setup/)
 
 AWS_ACCESS_KEY="AWS_ACCESS_KEY"
+
+
 AWS_SECRET_KEY="AWS_SECRET_KEY"
+
 S3_BUCKET_NAME="Bucket name"
 
 EMAIL_FROM="Sender email"
+
 EMAIL_TO="Reciever email"
+
 SES_SMTP_USER="SMTP user name"
+
 SES_SMTP_PASSWORD="SMTP password"
 
-While I have written python as I didn't had any access to airflow I tried reflecting the same steps in dummpy airflow dag script as well which can be fount in setup/ folder
+
+Note : While I have written python as I didn't had any access to airflow I tried reflecting the same steps in dummpy airflow dag script as well which can be fount in setup/ folder
