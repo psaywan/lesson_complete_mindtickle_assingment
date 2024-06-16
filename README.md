@@ -46,7 +46,7 @@ source venv/bin/activate
 
 # Install all the dependencies present in python-job-files/requirements.txt
 
-cd python-job-files/
+cd setup/
 
 pip install -r requirements.txt
 
