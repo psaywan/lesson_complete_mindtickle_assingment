@@ -7,7 +7,7 @@
 
 ## Changes needed into init.pg.sql. as addition of the table named lesson_completed to track all the entries of the completed lesson by the users. I did used sample data for the same.
 
-![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.39.30%20PM.png)
+![Screenshot](https://github.com/psaywan/lesson_complete_mindtickle_assingment/blob/master/ss/Screenshot%202024-06-16%20at%208.44.52%20PM.png))
 
 
 
