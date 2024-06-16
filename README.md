@@ -52,4 +52,22 @@ We can see below table in the csv sent to email.
 
 
 
-# For the Airflod dag we need to ensure to set up the environment varialbes properly. Please refer the lessons_completion_dag.py
+# For the Airflod dag we need to ensure to set up below:
+
+Configuration Management:
+
+Ensure you have configured Airflow connections for PostgreSQL, MySQL, and AWS.
+You may use Airflow Variables for storing other configurations and credentials securely.
+Testing and Validation:
+
+Thoroughly test the DAG in your Airflow environment to ensure it runs as expected.
+Monitor logs for each task to debug any issues.
+Error Handling:
+
+The try-except blocks in the functions will help capture and log errors. You can expand error handling to retry or alert on failure as needed.
+Scalability:
+
+Using Airflow's scheduling and task management capabilities ensures that the solution can scale with your requirements.. 
+
+
+Please refer the lessons_completion_dag.py for the sample code.
